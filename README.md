@@ -9,7 +9,7 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update && sudo apt-get install google-cloud-sdk
 gcloud init
 ```
-### Get account credentials
+### Get account credentials (Service Account Key)
 
 ```
 https://console.cloud.google.com/
